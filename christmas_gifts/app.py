@@ -12,7 +12,7 @@ def to_markdown(text):
     text = text.replace('$','\$')
     return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
-gemini_api_secret_name = 'AIzaSyC2oDT8FfOYDuqGyLKsIb-TujyEwGOT9Xo'
+# gemini_api_secret_name = 'AIzaSyC2oDT8FfOYDuqGyLKsIb-TujyEwGOT9Xo'
 
 GOOGLE_API_KEY = gemini_api_secret_name
 genai.configure(api_key=GOOGLE_API_KEY)
