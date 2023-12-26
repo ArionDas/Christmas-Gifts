@@ -58,7 +58,7 @@ const GeminiGiftGenerator = () => {
       <form className="gemini-gift-form  z-0 " onSubmit={handleGenerateContent}>
         <div className="gemini-gift-generator text-white p-8 max-w-xl mx-auto  rounded shadow-lg backdrop-blur-[2px] z-10">
           <h1 className="text-3xl font-bold mb-4 text-center bject-cover transition-shadow hover:shadow-lg">
-            Christmas Gift Ideas Generator
+            New Year Gift Ideas Generator
           </h1>
           <div className="mb-3">
           <img src={santa} className="w-2/3 mx-auto bject-cover transition-shadow hover:shadow-lg" />
@@ -160,7 +160,7 @@ const GeminiGiftGenerator = () => {
                 Alok
               </a>{" "}
               : ) <br />
-              🎄 Merry Christmas🎄
+              🎄 Happy New Year🎄
             </p>
           </div>
         </div>
